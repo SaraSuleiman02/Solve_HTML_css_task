@@ -1,0 +1,4 @@
+abbr:hover {
+    cursor: pointer;
+    content: " (Orange)";
+}

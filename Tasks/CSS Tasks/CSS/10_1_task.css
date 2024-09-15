@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.item {
+    padding: 10px;
+    font-size: 18px;
+    margin: 5px 0;
+    color: black;
+}
+
+.blue {
+    background-color: #00bfff; 
+    color: white;
+}
+
+#pink-item {
+    background-color: #ff69b4; 
+    color: white;
+}
+
+.orange {
+    background-color: #ffa500; 
+    color: white;
+}

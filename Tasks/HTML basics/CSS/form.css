@@ -1,0 +1,14 @@
+.table-section table {
+    margin-top: 10px;
+}
+table,td, th {
+    border-collapse: collapse;
+}
+td, th {
+    width: 350px;
+    border-top:1px solid rgb(178, 174, 174); ;
+    /* border-right: 1px solid rgb(178, 174, 174); */
+}
+tr:nth-child(even) {
+    background-color: rgb(178, 174, 174);
+  }

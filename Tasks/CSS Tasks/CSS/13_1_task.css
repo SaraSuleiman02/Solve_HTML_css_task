@@ -1,0 +1,57 @@
+body {
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+table {
+    border: 1px solid black;
+    width: 500px;
+}
+
+th, td {
+    padding: 10px 20px;
+    border: 1px solid black;
+    height:fit-content;
+}
+
+th {
+    background-color: rgb(247, 247, 182);
+    color: red;
+    font-size: 1.75em;
+}
+
+td {
+    background-color: #44aef9;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="file"],
+textarea,
+select {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.button-group {
+    align-content: center;
+}
+
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    color: #000;
+    border: ipx solid black;
+    padding: 10px 30px;
+    margin: 10px;
+    cursor: pointer;
+}

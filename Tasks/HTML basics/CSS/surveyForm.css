@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kreon:wght@300..700&family=Merienda:wght@300..900&display=swap');
+
+body {
+    background-color: #3f3179;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.bigger-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bigger-container h3 {
+    margin-top: -20px;
+}
+
+.container {
+    border: 2px solid #20183e;
+    height: auto;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: #20183e;
+    padding: 40px 40px;
+}
+
+.container input[type="text"], input[type="email"], select, textarea {
+    width: 100%;         
+    height: 30px;        
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;  
+    font-size: 15px; 
+    font-family: 'Acme', sans-serif;
+    color: rgb(51, 49, 49); 
+}
+
+.container input[type="radio"], input[type="checkbox"] {
+    margin: 15px 0 ;
+}
+
+.container textarea {
+    margin-top: 10px;
+    height: 100px;
+}
+
+.container button {
+    width: 100%;         
+    height: 30px;        
+    padding: 5px;
+    border: 1px solid #009c00; 
+    background-color: #009c00;
+    border-radius: 4px;  
+    font-size: 15px; 
+    font-family: 'Acme', sans-serif;
+    color: white; 
+}

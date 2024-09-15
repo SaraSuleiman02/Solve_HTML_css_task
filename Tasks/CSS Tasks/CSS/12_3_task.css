@@ -1,0 +1,23 @@
+.container {
+    border: 2px solid #CD7F32; 
+    width: 300px;
+    height: 400px;
+   background-color: lightyellow;
+}
+
+h3, img, p {
+    margin-left: 20px;
+}
+
+img {
+    border:3px solid #CD7F32;
+}
+
+p {
+    height: 200px;
+    font-size: 15px;
+    margin-right: 20px;
+    border: 3px dashed #CD7F32;
+    background-color: yellow;
+    overflow-y: scroll;
+}

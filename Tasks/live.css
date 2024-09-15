@@ -1,0 +1,31 @@
+table {
+}
+
+th, td {
+}
+
+tr:nth-child(odd){
+}
+tr:nth-child(even){
+}
+
+tr:hover{
+}
+
+/*--------Form--------*/
+form {
+}
+
+label {
+}
+
+input{
+}
+
+input:nth-child(2n){
+}
+
+button{
+}
+button:hover{
+}

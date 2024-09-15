@@ -1,0 +1,7 @@
+.blackList {
+    border: 1px solid grey;
+    margin: 2vh 1vw;
+    padding: 0 2vw ;
+    width: 95vw;
+    box-sizing: border-box;
+}

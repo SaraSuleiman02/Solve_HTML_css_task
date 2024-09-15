@@ -1,0 +1,12 @@
+span {
+    display: flex;
+}
+
+.line3 {
+    color: pink;
+}
+
+.line5 {
+    color: yellow;
+    font-size: 3rem;
+}

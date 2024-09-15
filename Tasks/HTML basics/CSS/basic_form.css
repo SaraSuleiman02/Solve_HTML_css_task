@@ -1,0 +1,25 @@
+form {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+.form-group {
+    display: flex;
+    align-items: center;
+    margin: 7px 0;
+}
+label {
+    margin-right: 10px;
+}
+input, textarea {
+    width: 200px;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    width: 100px; 
+    align-self: center;
+}

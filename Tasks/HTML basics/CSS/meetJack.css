@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+.container {
+    border: 2px solid grey;
+    height: auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h1, img, p:last-child {
+    align-self: center;
+}
+
+.container p {
+    padding : 0 10px;
+}
+
+.container hr {
+    border: none;
+    height: 2px;
+    background-color: grey;
+    margin: 10px 0;
+}
