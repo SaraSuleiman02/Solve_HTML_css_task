@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container {
+            height: fit-content;
+            width: 300px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            
+        }
+
+        .box {
+            border: 2px solid #74a5d6;
+            border-radius: 2px;
+            background-color: #7393B3;
+            color: aliceblue;
+            padding: 5px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Turnip</div>
+        <div class="box">greens</div>
+        <div class="box">yarrow</div>
+        <div class="box">ricebeen</div>
+        <div class="box">rutabaga</div>
+        <div class="box">endive</div>
+        <div class="box">cauliflower</div>
+        <div class="box">sea lettuce</div>
+        <div class="box">kohlrabi</div>
+        <div class="box">amaranth</div>
+    </div>
+</body>
+</html>

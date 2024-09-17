@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+
+    <style>
+        .container {
+            border: 3px solid orange;
+            padding-top: 10px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            height: 400px;
+            width: 80%;
+        }
+
+        .box {
+            width: 20%;
+            height: 50px;
+            text-align: center;
+            color: aliceblue;
+            font-size: 50px;
+            padding: 20px;
+        }
+        .box10 {
+           margin-right: 320px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" style="background-color: rgb(111, 211, 111);">1</div>
+        <div class="box" style="background-color: #6495ED">2</div>
+        <div class="box" style="background-color: plum">3</div>
+        <div class="box" style="background-color: #5e7a96">4</div>
+        <div class="box" style="background-color: yellow;">5</div>
+        <div class="box" style="background-color: orange;">6</div>
+        <div class="box" style="background-color: red;">7</div>
+        <div class="box" style="background-color: lightgrey;">8</div>
+        <div class="box" style="background-color: rgb(25, 181, 25);">9</div>
+        <div class="box box10" style="background-color: darkseagreen;">10</div>
+    </div>
+</body>
+</html>
