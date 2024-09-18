@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .img {
+            position: relative;
+            margin: 10vh 10vw;
+            height: 150px;
+            width: 250px;
+        }
+
+        .background {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-image: url(../../Images/bg1.jpg!w700wp);
+            background-size: cover;
+            opacity: 0.5;
+            z-index: 0;
+        }
+
+        .img img {
+            position: relative; /* Position relative to the img div */
+            z-index: 1; 
+            transition: transform 2s;
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .img img:hover {
+            transform: rotate(-35deg);
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="img">
+            <div class="background"></div> 
+            <img src="https://img.pikbest.com/origin/09/31/20/216pIkbEsTT57.jpg!w700wp" alt="nature image">
+        </div>
+    </main>
+</body>
+</html>

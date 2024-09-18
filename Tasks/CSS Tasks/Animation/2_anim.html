@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tansition</title>
+
+        <style>
+            .container {
+                width: 300px;
+                height: 200px;
+                margin: 10vh 10vw;
+                background-color: #c5c5c5;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-radius: 6px;
+            }
+
+            .box {
+                height: 150px;
+                width: 150px;
+                background-color: green;
+                color: aliceblue;
+                border-radius: 6px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                transform: rotate(35deg);
+                transition: transform 0.5s ease-in-out, content 0.5s ease-in-out;
+            }
+
+            .box:hover {
+                transform: rotate(-60deg);
+            }
+
+            .box::before {
+                content: "Box1";
+            }
+
+            .box:hover::before {
+                content: "Box2";
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box"></div>
+        </div>
+    </body>
+</html>

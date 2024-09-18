@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: orange;
+            animation: coloring 4s;
+        }
+
+        @keyframes coloring {
+            0%   {background-color: red;}
+            25%  {background-color: green;}
+            50%  {background-color: yellow;}
+            100% {background-color: blue;}
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CSS Animation</h1>
+        <div class="box"></div>
+
+        <p>
+            <b>Note: </b>When an animation is finished, it goes back to its original style.
+        </p>
+    </div>
+</body>
+</html>
