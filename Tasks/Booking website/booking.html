@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Booking.com</title>
+
+        <link rel="stylesheet" href="./bookingStyle.css">
+    </head>
+    <body>
+        <div class="blue-background"></div>
+
+        <div class="container">
+            <header>
+                <nav class="navbar">
+                    <div class="left">
+                        <a href="#">Booking.com</a>
+                    </div>
+
+                    <div class="right">
+                        <ul>
+                            <li>JOD</li>
+                            <li><img src="../Images/USAflag.jpg" alt="USA"
+                                    height="40px"></li>
+                            <li><a href="#">List your property</a></li>
+                            <li><box-icon name='question-mark'
+                                    color="white"></box-icon></li>
+                            <li><button type="button">Register</button></li>
+                            <li><button type="button">Sign in</button></li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+
+            <main>
+                <div class="find">
+                    <div class="options">
+                        <ul>
+                            <li class="first-item"><a href="#"><box-icon name='bed' color="white"
+                                    size="xs"></box-icon> Stays</li></a>
+                            <li><a href="#"><box-icon type='solid' name='plane' rotate='90'
+                                    color="white"
+                                    size="xs"></box-icon>Flights</li></a>
+                            <li><a href="#"><box-icon name='car-wash' type='solid'
+                                    color='white' size="xs"></box-icon> Car
+                                rentals</li></a>
+                            <li><a href="#"><box-icon name='pie-chart-alt-2' color='white'
+                                    size="xs"></box-icon> Attraction</li></a>
+                            <li><a href="#"><box-icon name='taxi' color='white'
+                                    size="xs"></box-icon> Airport taxis</li></a>
+                        </ul>
+                    </div>
+
+                    <h1>Find your next stay</h1>
+                    <p id="firstP">Search deals on hotels, homes, and much more...</p>
+
+                    <div class="form">
+                        <form action="#">
+                            <select name="place" id="place">
+                                <option value="going" disabled
+                                    selected><box-icon name='bed' color="white"
+                                        size="xs"></box-icon>Where are you
+                                    going?</option>
+                                <option value="deadSea">Dead Sea</option>
+                                <option value="Aqaba">Aqaba</option>
+                                <option value="WadiRum">Wadi Rum</option>
+                            </select>
+
+                            <input type="date">
+                            <input type="text" name="people" id="people" placeholder="2 adults. 0 children. 1 room">
+                            <button type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="offers">
+                    <h2>Offers</h2>
+                    <p>Promotions, deals, and special offers for you.</p>
+
+                    <div class="offers-container">
+                        <div class="offers-box box1">
+                            <h2>Sieze the moment!</h2>
+                            <p>
+                                Save 15% or more when you book and stay before October 1, 2024
+                            </p>
+
+                            <button type="button">Find Getway Deals</button>
+                        </div>
+
+                        <div class="offers-box box2">
+                            <h2>Go for a good time, not a long time</h2>
+                            <p>
+                                Finish your year with a mini break. Save 15% or more when you book and stay by January 7, 2025. 
+                            </p>
+
+                            <button type="button">Find Late Escape Deals</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="browse">Browse</div>
+
+                <div class="trip">Trip</div>
+            </main>
+
+
+            
+        </div>
+
+        <!-- Link to icons -->
+        <script
+            src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    </body>
+</html>

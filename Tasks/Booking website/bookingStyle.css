@@ -1,0 +1,210 @@
+:root {
+    --main-color : #023f94;
+    --second-color : #FFBF00;
+    --main-text-color : black;
+    --second-text-color : aliceblue;
+    --third-text-color : rgb(165, 163, 163);
+    --forth-text-color :#1F51FF;
+    --font-size-m : 1.6em;
+    --font-size-s : 1em;
+}   
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Blue Sans", BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.descriptionP {
+    color: var(--third-text-color);
+}
+
+.blue-background {
+    height: 54%;
+    width: 100%;
+    background-color: var(--main-color);
+}
+
+.container {
+    margin: 0 6vw;
+    margin-top: -54vh;
+    display: grid;
+    grid-template-rows: 100px auto auto;
+    
+}
+
+/* Navbar */
+.navbar {
+    padding: 1vh 0;
+    display: flex;
+    justify-content: space-between;
+    color: var(--second-text-color);
+}
+
+.navbar .left a {
+    text-decoration: none;
+    font-size: var(--font-size-m);
+    font-weight: 700;
+    color: var(--second-text-color);
+}
+
+.navbar .right {
+    width: 40%;
+    font-weight: 600;
+}
+
+.navbar .right a, .find .options ul li a {
+    text-decoration: none;
+    color: var(--second-text-color);
+} 
+
+.navbar .right ul {
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+.navbar .right ul img {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.navbar .right ul button {
+    padding: 7px;
+    background-color: var(--second-text-color);
+    color: var(--forth-text-color);
+    border: 1px solid var(--forth-text-color);
+    border-radius: 4px;
+}
+
+#firstP {
+    color: var(--second-text-color);
+}
+
+/* MAIN */
+
+main {
+    margin-top: -40px;
+}
+
+.find {
+    color: var(--second-text-color);
+}
+
+.find .options ul{
+    color: var(--second-text-color);
+    list-style-type: none;
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6vh;
+}
+
+.find .options ul li {
+    font-size: var(--font-size-s);
+    padding: 10px;
+    border-radius: 40px;
+}
+
+.find .options ul .first-item {
+    background-color: rgba(31, 80, 255, 0.708);
+    border:1px solid var(--second-text-color);
+}
+
+.find .options ul li:hover {
+    background-color: rgba(31, 80, 255, 0.708)
+}
+
+.find h1 {
+    font-size: 3em;
+    margin-top: 10vh;
+}
+
+.form {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+    background-color: var(--second-color);
+    border-radius: 6px;
+    margin-top: 10vh;
+}
+
+.form select, .form input[type=date], .form input[type=text] {
+    width: 25vw;
+    height: 7vh;
+    margin: 1vh 0;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: var(--font-size-s);
+}
+
+.form button {
+    width: 10vw;
+    height: 7vh;
+    font-size: var(--font-size-s);
+    border-radius: 6px;
+    border: none;
+    background-color: var(--forth-text-color);
+    color: var(--second-text-color);
+}
+
+/* Offers section */
+.offers {
+    margin: 10vh 0;
+}
+
+.offers-container {
+    margin: 2vh 0;
+    display: grid;
+    grid-template-columns: 550px 500px;
+    gap: 10px;
+
+}
+
+.offers-box {
+    height: 150px;
+    width: 550px;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offers-container .box1 {
+    background-image: url(https://media.istockphoto.com/id/1151755587/photo/sunrise-behind-a-tropical-island-in-the-maldives.jpg?s=612x612&w=0&k=20&c=1P-LXAZfbvIA58uLLRU8zTiwBSnR01zDzZAChe_wM7c=);
+    color: var(--second-text-color);
+    
+}
+
+.offers-container .box1 button {
+    width: 12vw;
+    background-color: var(--forth-text-color);
+    color: var(--second-text-color);
+    border: none;
+    margin-top: 2vh ;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.offers-container .box2 {
+    border: 1px solid darkgrey;
+}
+.offers-container .box2 button {
+    width: 13vw;
+    background-color: var(--forth-text-color);
+    color: var(--second-text-color);
+    border: none;
+    margin-top: 2vh ;
+    padding: 10px;
+    border-radius: 6px;
+}
