@@ -1,0 +1,56 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.font-color {
+    color: #1d2b50;
+}
+
+.first-row-margin{
+    margin: 0 85px;
+}
+.first-row {
+    background-color: #f8f9fa; /* Light background */
+}
+
+.second-row {
+    background-color: #ffffff; /* White background */
+}
+
+.third-row {
+    background-color: #ffffff; /* Bootstrap primary colo*/
+}
+
+.third-row .nav-link {
+    color: #1d2b50;
+}
+
+.logo {
+    height: 50px; /* Adjust logo size */
+}
+
+/* Custom button color */
+.custom-blue {
+    background-color: #1d2b50;
+    color: white;
+    border: none; /* Remove border */
+}
+
+.custom-blue:hover {
+    background-color: #162037; /* Darker shade on hover */
+}
+
+.custom-red {
+    background-color: #ff392e;
+    color: white;
+    border: none; /* Remove border */
+}
+
+.custom-red:hover {
+    background-color: #a41f18; /* Darker shade on hover */
+}
+
+/* News Section */
